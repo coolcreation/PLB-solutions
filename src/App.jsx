@@ -1,23 +1,23 @@
 // src/App.jsx
 
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
-import Navbar from "./components/Navbar";
+import Header from './components/Header/Header';
 // import Footer from './components/Footer/Footer';
 
-import Home from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
+import HomePage from './pages/HomePage/HomePage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
 
 
   return (
     <>
-    <Navbar />
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/contact" element={<ContactPage />} />
-    </Routes>
+      <Header />
+      <Routes>
+        <Route path="/PLB-solutions" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
     </>
   )
 }

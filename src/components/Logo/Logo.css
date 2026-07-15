@@ -1,0 +1,15 @@
+/* src/components/Logo/Logo.css */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+.text-logo{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--button-green-bg) !important;
+    border-radius: 50%;
+    ;
+}

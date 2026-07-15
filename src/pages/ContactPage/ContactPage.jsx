@@ -2,6 +2,6 @@
 
 export default function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <div>Welcome to the contact page!</div>
   )
 }

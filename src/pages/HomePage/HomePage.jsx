@@ -2,6 +2,6 @@
 
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>Welcome to the home page!</div>
   )
 }

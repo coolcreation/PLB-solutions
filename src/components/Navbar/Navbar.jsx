@@ -15,8 +15,8 @@ export default function Navbar() {
   };
 
   return (
-          <nav className="navbar navbar-expand-lg">
-            <div className="container-r d-flex h-100 p-0 ps-lg-4 pe-lg-2">
+          <nav className="navbar w-100 navbar-expand-lg">
+            <div className="w-100 d-flex p-0 ps-lg-4 pe-lg-2">
 
                 <button className="nav-toggle d-lg-none" type="button" 
                   data-bs-toggle="collapse" 
@@ -33,7 +33,7 @@ export default function Navbar() {
   
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
   
-                <ul className="navbar-nav mb-2 mb-lg-0 mx-auto pt-1 px-3 pb-3 p-lg-0">
+                <ul className="navbar-nav w-100 bg-light position-relative mb-2 mb-lg-0 mx-auto pt-1 px-3 pb-3 p-lg-0">
                     
                   <li className="nav-item">
                     <NavLink to="/resources" className="nav-link" onClick={closeMenu}>
@@ -69,6 +69,14 @@ export default function Navbar() {
                     <NavLink to="/contact" className="nav-link" onClick={closeMenu}>
                       Contact Us
                     </NavLink>
+                  </li>
+
+                  <li className="ms-auto">
+                    <button className="d-lg-block btn-success fw-bold border-0">
+                        <NavLink to="/donate" className="nav-link deals-button text-white fw-bold d-flex align-items-center p-2 h-75" onClick={closeMenu}>
+                          Donate 
+                        </NavLink>
+                    </button>
                   </li>
 
                 </ul>

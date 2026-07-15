@@ -1,0 +1,7 @@
+/* src/components/Header/Header.css */
+
+.header{
+    display: flex;
+    background-color: rgb(255, 238, 216);
+    padding: 1rem;
+}
