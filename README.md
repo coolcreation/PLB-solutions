@@ -7,3 +7,7 @@ npm create vite@latest
 npm install axios react-icons react-cookie-consent @auth0/auth0-react bootstrap-icons swiper
 npm install gh-pages --save-dev 
 ```
+
+```js
+npm run deploy
+```
